@@ -57,18 +57,19 @@ In the best case you will get away with examples or simple signatures.
 
 ****
 
-_**<Overview Diagram>**_
+[plantuml]
+----
+database GitRepo
+
+[GitRepo] <- [GitHub Actions]
+[DockerHub] <-- [GitHub Actions]
+[GitHub Actions] -> [GitHub Pages]
+----
 
 Motivation::
 
-_<text explanation>_
+Use GitHub Actions to run docToolchain and publish the result to GitHub Pages.
 
-
-Contained Building Blocks::
-_<Description of contained building block (black boxes)>_
-
-Important Interfaces::
-_<Description of important interfaces>_
 
 [role="arc42help"]
 ****

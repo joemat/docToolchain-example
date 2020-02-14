@@ -3,7 +3,7 @@
 //
 // ====================================
 
-= image:arc42-logo.png[arc42] Template
+= image:arc42-logo.png[arc42] docToolchain Example
 // toc-title definition MUST follow document title without blank line!
 :docinfo: shared
 :toclevels: 3
@@ -48,6 +48,7 @@ For documentation of your own system you use better the _plain_ version.
 :numbered:
 
 <<<<
+
 // 1. Introduction and Goals
 include::src/01_introduction_and_goals.adoc[]
 

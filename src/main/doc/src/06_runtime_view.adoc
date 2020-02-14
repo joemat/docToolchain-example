@@ -30,15 +30,13 @@ There are many notations for describing scenarios, e.g.
 
 ****
 
-=== <Runtime Scenario 1>
+=== Workflow: Update GitHub Pages
 
+[plantuml]
+----
+DeveloperMachine -> GitHub : push
+GitHub -> GitHubAction : start
+GitHubAction -> GitHubAction : run docToolchain
+GitHubAction -> GitHubPages : push generated HTML page
+----
 
-* _<insert runtime diagram or textual description of the scenario>_
-* _<insert description of the notable aspects of the interactions between the
-building block instances depicted in this diagram.>_
-
-=== <Runtime Scenario 2>
-
-=== ...
-
-=== <Runtime Scenario n>
