@@ -1,7 +1,9 @@
 == Run docToolchain in GitHub actions
 
-Example project to run [docToolchain]() in GitHub actions and publish the resulting https://joemat.github.io/docToolchain-example[documentation on github pages].
+Example project to run https://github.com/docToolchain/docToolchain[docToolchain] in GitHub actions and publish the resulting https://joemat.github.io/docToolchain-example[documentation on github pages].
 
+* link:.github/workflows/builddoc.yml[GitHub Action declaration]
+* link:builddoc.sh[Script to run docToolchain]
 
 See https://joemat.github.io/docToolchain-example/arc42-template.html#_whitebox_overall_system[5.1 Whitebox Overall System] and https://joemat.github.io/docToolchain-example/arc42-template.html#_workflow_update_github_pages[6.1 Workflow: Update GitHub Pages] for some basic diagrams on the setup.
 
